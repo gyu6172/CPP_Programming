@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\과제1">
+      <UniqueIdentifier>{c3ed9f40-5055-45fc-a2ee-70f398183c06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -20,6 +23,18 @@
     </ClCompile>
     <ClCompile Include="0314.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>소스 파일\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <Filter>소스 파일\과제1</Filter>
+    </ClCompile>
+    <ClCompile Include="13.cpp">
+      <Filter>소스 파일\과제1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
