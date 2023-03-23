@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\과제1">
       <UniqueIdentifier>{c3ed9f40-5055-45fc-a2ee-70f398183c06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0323">
+      <UniqueIdentifier>{9e102f0f-d65d-48b8-9923-e9e71a2de9fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -42,5 +45,16 @@
     <ClCompile Include="0321.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0323.cpp">
+      <Filter>소스 파일\0323</Filter>
+    </ClCompile>
+    <ClCompile Include="0323-Mycircle.cpp">
+      <Filter>소스 파일\0323</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0323.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
