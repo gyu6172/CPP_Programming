@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\0323">
       <UniqueIdentifier>{9e102f0f-d65d-48b8-9923-e9e71a2de9fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0328">
+      <UniqueIdentifier>{d5cebad0-4ad3-400c-af69-3b6615b36f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\0328">
+      <UniqueIdentifier>{ba9d4b3f-b45b-42c6-81a7-ce7f6e09cf33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -51,10 +57,25 @@
     <ClCompile Include="0323-Mycircle.cpp">
       <Filter>소스 파일\0323</Filter>
     </ClCompile>
+    <ClCompile Include="main0328.cpp">
+      <Filter>소스 파일\0328</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLine0328.cpp">
+      <Filter>소스 파일\0328</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPos0328.cpp">
+      <Filter>소스 파일\0328</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0323.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\0323</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPos0328.h">
+      <Filter>헤더 파일\0328</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLine0328.h">
+      <Filter>헤더 파일\0328</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
