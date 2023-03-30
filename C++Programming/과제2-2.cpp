@@ -46,13 +46,13 @@ Date::Date(string date)
 				str = "";
 			}
 		}
-		else if (flag == 2) {
-			month = stoi(str);
-			str = "";
-		}
 		else {
 			str += date[i];
 		}
+	}
+	if (flag == 2) {
+		day = stoi(str);
+		str = "";
 	}
 	m_year = year;
 	m_month = month;
