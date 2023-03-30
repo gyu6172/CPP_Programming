@@ -15,7 +15,7 @@ int Random::next() {
 }
 int Random::nextInRange(int st, int ed)
 {
-	int n = rand()%(ed-st+1);
+	int n = rand()%(ed-st);
 	n += st;
 	return n;
 }
