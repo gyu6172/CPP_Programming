@@ -25,6 +25,12 @@
     <Filter Include="헤더 파일\0328">
       <UniqueIdentifier>{ba9d4b3f-b45b-42c6-81a7-ce7f6e09cf33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\과제2">
+      <UniqueIdentifier>{4708f915-275a-44b3-9d51-f08d9e0899c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0330">
+      <UniqueIdentifier>{f5c11ae9-9cea-492e-85a5-cc61e218c321}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -65,6 +71,15 @@
     </ClCompile>
     <ClCompile Include="MyPos0328.cpp">
       <Filter>소스 파일\0328</Filter>
+    </ClCompile>
+    <ClCompile Include="과제2-2.cpp">
+      <Filter>소스 파일\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="0330-실습1.cpp">
+      <Filter>소스 파일\0330</Filter>
+    </ClCompile>
+    <ClCompile Include="0330-실습2.cpp">
+      <Filter>소스 파일\0330</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
