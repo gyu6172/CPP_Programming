@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\0330">
       <UniqueIdentifier>{f5c11ae9-9cea-492e-85a5-cc61e218c321}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\과제3">
+      <UniqueIdentifier>{610d7d97-2da2-4c6e-b6c3-51eff50fa899}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -83,6 +86,15 @@
     </ClCompile>
     <ClCompile Include="과제2-5.cpp">
       <Filter>소스 파일\과제2</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3-4.cpp">
+      <Filter>소스 파일\과제3</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3-10.cpp">
+      <Filter>소스 파일\과제3</Filter>
+    </ClCompile>
+    <ClCompile Include="과제3-12.cpp">
+      <Filter>소스 파일\과제3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
