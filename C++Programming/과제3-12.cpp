@@ -18,12 +18,12 @@ void Circle::setCircle(string name, int radius)
 
 double Circle::getArea()
 {
-	return 3.14 * this->radius * this->radius;
+	return 3.14 * radius * radius;
 }
 
 string Circle::getName()
 {
-	return this->name;
+	return name;
 }
 
 
