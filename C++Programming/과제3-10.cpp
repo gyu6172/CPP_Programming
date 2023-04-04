@@ -29,21 +29,21 @@ Family::Family(string name, int size)
 {
 	familyName = name;
 	this->size = size;
-	this->p = new Person[this->size];
+	p = new Person[this->size];
 }
 
 void Family::show()
 {
 	cout<<familyName<<"가족은 다음과 같이 "<<size<<"명 입니다."<<endl;
 	for (int i = 0; i < size; i++) {
-		cout<<(this->p)[i].getName()<<"\t";
+		cout<<p[i].getName()<<"\t";
 	}
 	cout<<endl;
 }
 
 void Family::setName(int n, string name)
 {
-	(this->p)[n].setName(name);
+	p[n].setName(name);
 }
 
 Family::~Family()
@@ -59,5 +59,4 @@ int main() {
 	simpson->show();
 
 	delete simpson;
-	
 }
