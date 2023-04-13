@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\0411">
       <UniqueIdentifier>{981b8887-545c-4c21-8e6c-ab277494b8f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0413">
+      <UniqueIdentifier>{8ab6c433-c2cb-4a17-bc19-8307c9f481a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -117,6 +120,12 @@
     <ClCompile Include="0411.cpp">
       <Filter>소스 파일\0411</Filter>
     </ClCompile>
+    <ClCompile Include="MyString0413.cpp">
+      <Filter>소스 파일\0413</Filter>
+    </ClCompile>
+    <ClCompile Include="main0413.cpp">
+      <Filter>소스 파일\0413</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0323.h">
@@ -130,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="MyStudent0406.h">
       <Filter>소스 파일\0406</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString0413.h">
+      <Filter>소스 파일\0413</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
