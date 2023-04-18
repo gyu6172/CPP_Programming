@@ -10,7 +10,7 @@ public:
 	static int add(int a, int b);
 	static int multiply(int a, int b);
 };
-const double PI=3.14;
+const double MyMath::PI=3.14;
 int MyMath::add(int a, int b)
 {
 	return a+b;

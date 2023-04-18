@@ -46,6 +46,12 @@
     <Filter Include="소스 파일\0413">
       <UniqueIdentifier>{8ab6c433-c2cb-4a17-bc19-8307c9f481a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\중간고사 연습용">
+      <UniqueIdentifier>{81743504-092f-45aa-bc0c-0cd571469571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0418">
+      <UniqueIdentifier>{40a488ef-996c-4316-ba15-ebb01d826063}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -126,6 +132,18 @@
     <ClCompile Include="main0413.cpp">
       <Filter>소스 파일\0413</Filter>
     </ClCompile>
+    <ClCompile Include="중간고사연습1.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlace.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사연습2.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="0418.cpp">
+      <Filter>소스 파일\0418</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0323.h">
@@ -142,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="MyString0413.h">
       <Filter>소스 파일\0413</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlace.h">
+      <Filter>소스 파일\중간고사 연습용</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

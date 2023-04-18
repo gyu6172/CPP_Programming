@@ -18,6 +18,7 @@ public:
 	MyComplex operator+=(MyComplex in);
 	MyComplex operator!();
 	float operator[](int idx);
+	friend MyComplex operator++(MyComplex &in);
 
 	friend MyComplex operator*(float lhs, MyComplex rhs);
 	friend ostream& operator<<(ostream& o, MyComplex in);
@@ -25,6 +26,11 @@ public:
 ostream& operator<<(ostream& o, MyComplex in) {
 	o<< in.m_real << ((in.m_img >= 0) ? "+" : "") << in.m_img << "i";
 	return o;
+}
+MyComplex operator++(MyComplex &in) {
+	in.m_real++;
+	in.m_img++;
+	return in;
 }
 MyComplex operator*(float lhs, MyComplex rhs) {
 	MyComplex out;
@@ -86,43 +92,52 @@ float MyComplex::operator[](int idx)
 	return 0.0f;
 }
 int main() {
-	MyComplex a(1,3), b(1,5);
+	//MyComplex a(1,3), b(1,5);
+
+	//a.print();
+	//b.print();
+
+	//MyComplex c = a+b;
+	//c.print();
+
+	//MyComplex d = a+b+c;
+	//d.print();
+
+	//MyComplex e = a+b-c;
+	//e.print();
+
+	//MyComplex f = a*b;
+	//f.print();
+
+	//MyComplex g = a*3;
+	//g.print();
+
+	//MyComplex h = 3 * (a+b) + c;
+	//h.print();
+
+	//MyComplex i = a+=b;
+	//i.print();
+	//a.print();
+
+	//MyComplex j = b*(!b);
+	//j.print();
+
+	//MyComplex k = a;	//copy constructor
+	//k = a;				//assignment operator
+
+	//a.print();
+	//cout<<a<<endl;
+	//
+	//cout<<a[0]<<"+" << a[1] << "i" << endl;
+
+	MyComplex a(1,2), b(5,3);
+	MyComplex c = a++;
+	MyComplex d = ++a;
 
 	a.print();
 	b.print();
-
-	MyComplex c = a+b;
 	c.print();
-
-	MyComplex d = a+b+c;
 	d.print();
-
-	MyComplex e = a+b-c;
-	e.print();
-
-	MyComplex f = a*b;
-	f.print();
-
-	MyComplex g = a*3;
-	g.print();
-
-	MyComplex h = 3 * (a+b) + c;
-	h.print();
-
-	MyComplex i = a+=b;
-	i.print();
-	a.print();
-
-	MyComplex j = b*(!b);
-	j.print();
-
-	MyComplex k = a;	//copy constructor
-	k = a;				//assignment operator
-
-	a.print();
-	cout<<a<<endl;
-	
-	cout<<a[0]<<"+" << a[1] << "i" << endl;
 
 	return 0;
 }
