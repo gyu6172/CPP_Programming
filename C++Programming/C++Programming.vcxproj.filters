@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\0418">
       <UniqueIdentifier>{40a488ef-996c-4316-ba15-ebb01d826063}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0427">
+      <UniqueIdentifier>{5ca078e0-7fc8-40fd-b82f-bc22ef224560}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -143,6 +146,18 @@
     </ClCompile>
     <ClCompile Include="0418.cpp">
       <Filter>소스 파일\0418</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사연습3.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 연산자 중복 연습.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="중간고사 연습 4.cpp">
+      <Filter>소스 파일\중간고사 연습용</Filter>
+    </ClCompile>
+    <ClCompile Include="0427.cpp">
+      <Filter>소스 파일\0427</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

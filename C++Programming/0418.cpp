@@ -75,7 +75,7 @@ int main() {
 	MyPos a;
 	//b객체는 a가 필요한 모든 요소를 가지고 있다. b로 a를 만드는 것 가능.
 	//자식->부모, derived->base : "업캐스팅(상향 형변환)"
-	a = b;
+	//a = b;
 	b.print();
 	a.print();
 

@@ -73,6 +73,8 @@ int main() {
 	func(a);
 	func(b);
 	func(c);
+	int n=10;
+	Person** arr = new Person*[n];
 
 	cout<<Person::getId()<<endl;
 }

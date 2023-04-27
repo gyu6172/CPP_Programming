@@ -91,6 +91,8 @@ int main() {
 		arr[i]->print();
 	}
 
+	Box* tmp = new Box[3];
+
 	func(arr,num);
 
 	for (int i = 0; i < num; i++) {
