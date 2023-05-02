@@ -55,9 +55,12 @@
     <ClCompile Include="0427.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="main0502.cpp" />
     <ClCompile Include="main0413.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="MyApp0502.cpp" />
+    <ClCompile Include="MyDrawApp0502.cpp" />
     <ClCompile Include="MyLine0328.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -67,6 +70,7 @@
     <ClCompile Include="main0328.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="MyMemoApp0502.cpp" />
     <ClCompile Include="MyPlace.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -126,9 +130,12 @@
     <ClInclude Include="0323.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="MyApp0502.h" />
+    <ClInclude Include="MyDrawApp0502.h" />
     <ClInclude Include="MyLine0328.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="MyMemoApp0502.h" />
     <ClInclude Include="MyPlace.h" />
     <ClInclude Include="MyPos0328.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
