@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\0502">
       <UniqueIdentifier>{c1844e64-f066-418d-941b-a1c24237017f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0504-템플릿">
+      <UniqueIdentifier>{329553c6-3081-4b7a-8d83-e4b29f0d1d57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -173,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="MyMemoApp0502.cpp">
       <Filter>소스 파일\0502</Filter>
+    </ClCompile>
+    <ClCompile Include="0504-1.cpp">
+      <Filter>소스 파일\0504-템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="0504-2.cpp">
+      <Filter>소스 파일\0504-템플릿</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
