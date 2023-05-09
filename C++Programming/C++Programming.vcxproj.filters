@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\0504-템플릿">
       <UniqueIdentifier>{329553c6-3081-4b7a-8d83-e4b29f0d1d57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0509-STL">
+      <UniqueIdentifier>{97bca4d7-64f0-46ed-8339-caa1046f8f93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -183,6 +186,15 @@
     <ClCompile Include="0504-2.cpp">
       <Filter>소스 파일\0504-템플릿</Filter>
     </ClCompile>
+    <ClCompile Include="0509-vector.cpp">
+      <Filter>소스 파일\0509-STL</Filter>
+    </ClCompile>
+    <ClCompile Include="0509-list.cpp">
+      <Filter>소스 파일\0509-STL</Filter>
+    </ClCompile>
+    <ClCompile Include="0509-FloodFill.cpp">
+      <Filter>소스 파일\0509-STL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0323.h">
@@ -212,5 +224,10 @@
     <ClInclude Include="MyMemoApp0502.h">
       <Filter>소스 파일\0502</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Map.txt">
+      <Filter>소스 파일\0509-STL</Filter>
+    </Text>
   </ItemGroup>
 </Project>
