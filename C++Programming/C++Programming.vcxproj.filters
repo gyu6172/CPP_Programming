@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\0509-STL">
       <UniqueIdentifier>{97bca4d7-64f0-46ed-8339-caa1046f8f93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0511-FloodFill&amp;MFC">
+      <UniqueIdentifier>{ffe6a572-1c9b-4709-af8f-76a2981c865d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -194,6 +197,12 @@
     </ClCompile>
     <ClCompile Include="0509-FloodFill.cpp">
       <Filter>소스 파일\0509-STL</Filter>
+    </ClCompile>
+    <ClCompile Include="0511-FloodFill.cpp">
+      <Filter>소스 파일\0511-FloodFill&amp;MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="0511-MFC.cpp">
+      <Filter>소스 파일\0511-FloodFill&amp;MFC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
