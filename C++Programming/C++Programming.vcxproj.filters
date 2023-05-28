@@ -67,6 +67,12 @@
     <Filter Include="소스 파일\0511-FloodFill&amp;MFC">
       <UniqueIdentifier>{ffe6a572-1c9b-4709-af8f-76a2981c865d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\실기시험 연습용">
+      <UniqueIdentifier>{36d644ee-1f35-4f49-9433-57ab5750feca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\실기시험 연습용\실기시험 1분반">
+      <UniqueIdentifier>{34466276-11e4-4610-a680-cb927aab0b2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -204,6 +210,21 @@
     <ClCompile Include="0511-MFC.cpp">
       <Filter>소스 파일\0511-FloodFill&amp;MFC</Filter>
     </ClCompile>
+    <ClCompile Include="1분반-문제1.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
+    <ClCompile Include="1분반-문제2.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
+    <ClCompile Include="1분반-문제3.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
+    <ClCompile Include="1분반-문제4.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
+    <ClCompile Include="1분반-문제5.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0323.h">
@@ -238,5 +259,13 @@
     <Text Include="Map.txt">
       <Filter>소스 파일\0509-STL</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\2022중간고사1반.pdf">
+      <Filter>소스 파일\실기시험 연습용</Filter>
+    </None>
+    <None Include="..\..\..\..\Downloads\2022중간고사2반.pdf">
+      <Filter>소스 파일\실기시험 연습용</Filter>
+    </None>
   </ItemGroup>
 </Project>
