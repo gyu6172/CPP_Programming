@@ -96,7 +96,7 @@ public:
 
 int main() {
 	//종류가 다른 클래스를 같은 배열에 넣을 수 있을까?
-	MyShape a(20,30);
+	//MyShape a(20,30);
 	MyRect b(10,20,3,3);
 	MyCircle c(0,0,10);
 
@@ -104,7 +104,7 @@ int main() {
 	//즉, 부모의 draw() 호출한다.
 
 	//함수도 역시 메모리(주소값)가 있다.
-	MyShape* p = &a;
+	//MyShape* p = &a;
 	//컴파일러 : 아 p는 MyShape구나. draw()는 여기에 적혀있지.
 	//컴파일러는 컴파일타임에 함수의 주소를 저장함.
 	//그런데 주소를 미리 저장하지 말자고 하는 문법이 있다.(나중에 찾자) : virtual 키워드
@@ -118,7 +118,8 @@ int main() {
 
 	//함수를 virtual로 선언하면, 업캐스팅이 되었을때, 부모의 자료형을 따라가는게 아니라
 	//실제로 가리키는 변수의 자료형을 따라가게 된다.
-	p->draw();
+	//p->draw();
+	MyShape* p;
 	p = &b;
 	p->draw();
 	p = &c;
@@ -129,7 +130,7 @@ int main() {
 	/*arr[0] = &a;
 	arr[1] = &b;
 	arr[2] = &c;*/
-	arr[0] = new MyShape(20,30);
+	arr[0] = new MyRect(20,30);
 	arr[1] = new MyRect(10,20,3,3);
 	arr[2] = new MyCircle(0,0,10);
 	arr[2] = new MyLine(0,0,100,100);
@@ -141,7 +142,7 @@ int main() {
 	//다운캐스팅(보통 잘 안씀)
 	//보통 부모 클래스에서 changeScale()같은 함수를 만들어서 사용.
 	MyCircle *cls = (MyCircle*)arr[2];
-	cls->m_radius = 100;
+	//cls->m_radius = 100;
 	//m_radius가 protected라 안되는 거임
 
 	return 0;

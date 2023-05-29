@@ -35,7 +35,7 @@ ostream& operator<<(ostream& o, MyStudent& in) {
 	return o;
 }
 
-//num 오름차순 정렬
+//num 오름차순 정렬`	
 bool compare1(MyStudent& a, MyStudent& b) {
 	return (a.m_num < b.m_num);
 }
@@ -100,7 +100,8 @@ int main() {
 		cout << e << endl;
 	}
 
-	//remove(Mystudent in) : list의 in객체를 지운다.(==연산자 정의가 되어있어야한다.)
+	MyStudent in(100, "Kim");
+	arr.remove(in);// : list의 in객체를 지운다.(==연산자 정의가 되어있어야한다.)
 	//unique() : 중복된 객체를 지운다.
 	
 	

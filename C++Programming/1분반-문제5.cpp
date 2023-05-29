@@ -10,7 +10,7 @@ public:
 };
 
 int CBoard::m_text_cnt=0;
-string CBoard::m_texts[10] = {"",};
+string CBoard::m_texts[10] = {};
 
 int main() {
 	CBoard::add("중간고사 실시 중");
