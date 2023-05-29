@@ -73,6 +73,9 @@
     <Filter Include="소스 파일\실기시험 연습용\실기시험 1분반">
       <UniqueIdentifier>{34466276-11e4-4610-a680-cb927aab0b2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\실기시험 연습용\실기시험 2분반">
+      <UniqueIdentifier>{32237222-e886-4957-a28a-09e196d1472d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0309.cpp">
@@ -224,6 +227,21 @@
     </ClCompile>
     <ClCompile Include="1분반-문제5.cpp">
       <Filter>소스 파일\실기시험 연습용\실기시험 1분반</Filter>
+    </ClCompile>
+    <ClCompile Include="2분반-문제1.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 2분반</Filter>
+    </ClCompile>
+    <ClCompile Include="2분반-문제2.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 2분반</Filter>
+    </ClCompile>
+    <ClCompile Include="2분반-문제3.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 2분반</Filter>
+    </ClCompile>
+    <ClCompile Include="2분반-문제4.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 2분반</Filter>
+    </ClCompile>
+    <ClCompile Include="2분반-문제5.cpp">
+      <Filter>소스 파일\실기시험 연습용\실기시험 2분반</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
